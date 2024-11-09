@@ -7,6 +7,12 @@ body {
    background-color: #FFFFFF;
 }
 
+img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+}
+
 /* reset */
 
 ul,
@@ -68,10 +74,12 @@ a {
 
 /* footer */
 
+
 .footer-logo {
    font-family: "Raleway", sans-serif;
    margin-bottom: 16px;
    color: #4d5ae5;
+   display: inline-block;
 }
 
 .footer-logo .logo-part {
@@ -169,6 +177,7 @@ a {
    margin-right: auto;
    margin-left: auto;
    background-color: #4D5AE5;
+   cursor: pointer;
 }
 .button-color:hover {
 background-color: #404BBF;
@@ -237,6 +246,11 @@ cursor: pointer;
 }
 
 /* our team */
+
+.container {
+   
+}
+
 .our-team {
    padding: 120px 0;
    background-color: #F4F4FD;
@@ -271,11 +285,6 @@ display: flex;
    flex-direction: column;
    gap: 8px;
    border-radius: 0 0 4px 4px;
-      padding: 0px 0px 32px 0px;
-      width: 264px;
-      height: 380px;
-      box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-         background: #fff;
 }
 
 .our-team-text,
